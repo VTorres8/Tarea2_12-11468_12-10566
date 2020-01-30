@@ -1,4 +1,5 @@
 import unittest
+from Persona import Persona
 
 class TestPension(unittest.TestCase):
 
@@ -6,6 +7,4 @@ class TestPension(unittest.TestCase):
     def test_CrearPersona(self):
         persona = Persona()
         self.assertIsInstance(persona,Persona)
-
-
        
